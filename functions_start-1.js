@@ -46,7 +46,7 @@ function multTable(row, col) {
         table = table + "<tr>";
         for (var j = 1; j < row; ++j) {
             x = i * j;
-            table = table + "<td>" + x + "</td>";
+            table = table + "<td>" + x + "</td>" + "<td>" + 2*x + "</td>" + "<td>" + 3*x + "</td>";
         }
         table = table + "</tr>";
     }
