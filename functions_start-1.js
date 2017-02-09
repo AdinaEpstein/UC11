@@ -60,8 +60,8 @@ function multTable(row, col) {
  * @returns {number}
  */
 function factorial(n) {
-    var result = 0;
-    for (var i = n; i > 1; i--) {
+    var result = 1;
+    for (var i = 1; i <= n; i++) {
         result = result * i;
     }
     return result;
@@ -84,6 +84,7 @@ function combinations(n, k) {
  * @param {Array} a An array to sort
  * @returns {Array} The sorted array
  */
+
 function sort(a) {
     result = a;
     for (var i = 0; i < result.length; ++i) {
